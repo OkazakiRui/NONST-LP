@@ -1,0 +1,714 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  min-width: 1000px;
+}
+
+.sectionTitle {
+  font-size: 72px;
+  font-weight: bold;
+  position: relative;
+}
+.sectionTitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 3px solid #000;
+  width: 212px;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+}
+.sectionTitle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 3px solid #000;
+  width: 212px;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+}
+
+.firstView {
+  height: 766px;
+  background: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+}
+.firstView .rogo {
+  margin: 30px 0 0 30px;
+}
+.firstView .catch {
+  font-size: 51px;
+  font-weight: bold;
+  margin: 224px 0 0 81.1px;
+}
+.firstView .catchguti {
+  color: #52a1c3;
+}
+.firstView .catchborder {
+  border-bottom: 5px bottom #52a1c3;
+}
+.firstView .about {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 32px 0 0 85.1px;
+}
+.firstView .App {
+  position: absolute;
+  margin-left: 81.1px;
+  margin-top: 70px;
+}
+.firstView .Google {
+  margin-left: 296.1px;
+  margin-top: 70px;
+}
+.firstView .kanpai {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.firstView .dish {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 180px;
+}
+.selectTItle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 80px auto;
+}
+.select button {
+  color: #c7c7c7;
+}
+.select button.selected {
+  color: #3b5e88;
+}
+.select button.green.selected {
+  color: #637c63;
+}
+.select1 {
+  padding-right: 200px;
+}
+
+.sectionTitle {
+  font-size: 72px;
+  font-weight: bold;
+  position: relative;
+}
+.sectionTitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 3px solid #000;
+  width: 212px;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+}
+.sectionTitle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 3px solid #000;
+  width: 212px;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+}
+
+.howto {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.howtoJ {
+  font-size: 32px;
+}
+
+.goodPoint {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.goodPointJ {
+  font-size: 32px;
+}
+
+.alliance {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.allianceJ {
+  font-size: 32px;
+}
+
+.qa {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.qaJ {
+  font-size: 32px;
+}
+
+.step {
+  width: 1000px;
+  margin: 0 auto;
+  display: none;
+}
+.step.selected {
+  display: block;
+}
+.step .border1 {
+  position: absolute;
+  transform: translateY(-125%) translateX(125%);
+}
+.step .border2 {
+  position: absolute;
+  transform: translateY(-110%) translateX(125%);
+}
+.step .border3 {
+  position: absolute;
+  transform: translateY(-135%) translateX(115%);
+}
+.step .border4 {
+  position: absolute;
+  transform: translateY(-110%) translateX(125%);
+}
+.step .border5 {
+  position: absolute;
+  transform: translateY(-135%) translateX(115%);
+}
+.step .border6 {
+  position: absolute;
+  transform: translateY(-110%) translateX(125%);
+}
+.step .space {
+  margin-bottom: 475px;
+}
+.step .right {
+  margin-left: 290px;
+}
+.step .step1 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step1 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step1 .circle.green {
+  background: #e5f0da;
+}
+.step .step1S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step1Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step1About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step1img {
+  margin-top: 9.6px;
+  margin-left: 385px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step2 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step2 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step2 .circle.green {
+  background: #e5f0da;
+}
+.step .step2S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step2Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step2About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step2img {
+  margin-top: 90px;
+  margin-left: 500px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step3 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step3 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step3 .circle.green {
+  background: #e5f0da;
+}
+.step .step3S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step3Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step3About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step3img {
+  margin-top: 90px;
+  margin-left: 350px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step4 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step4 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step4 .circle.green {
+  background: #e5f0da;
+}
+.step .step4S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step4Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step4About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step4img {
+  margin-top: 90px;
+  margin-left: 450px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step5 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step5 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step5 .circle.green {
+  background: #e5f0da;
+}
+.step .step5S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step5Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step5About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step5img {
+  margin-top: 50px;
+  margin-left: 400px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step6 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step6 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step6 .circle.green {
+  background: #e5f0da;
+}
+.step .step6S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step6Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step6About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step6img {
+  margin-top: 90px;
+  margin-left: 400px;
+  position: absolute;
+  z-index: 3;
+}
+.step .step7 {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+}
+.step .step7 .circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #dae3f0;
+  border: none;
+  border-radius: 50%;
+}
+.step .step7 .circle.green {
+  background: #e5f0da;
+}
+.step .step7S {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  border-top: 6px;
+  z-index: 1;
+}
+.step .step7Number {
+  position: absolute;
+  font-size: 143px;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.step .step7About {
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+  margin-top: 85px;
+  margin-left: 166px;
+}
+.step .step7img {
+  margin-top: 90px;
+  margin-left: 400px;
+  position: absolute;
+  z-index: 3;
+}
+
+.merit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.merit1, .merit2 {
+  content: "";
+  border: 2px solid rgba(9, 53, 118, 0.42);
+  width: 200px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 64px;
+}
+.merit11, .merit12, .merit21, .merit22 {
+  margin-top: 16px;
+}
+.merit111, .merit112, .merit121, .merit122, .merit211, .merit212, .merit221, .merit222 {
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #093576;
+}
+.merit3 {
+  content: "";
+  border: 2px solid #cadeb5;
+  width: 200px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 64px;
+}
+.merit33 {
+  margin-top: 16px;
+}
+.merit333 {
+  text-align: center;
+  margin-top: 19px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #637c63;
+}
+.merit4 {
+  content: "";
+  border: 2px solid #cadeb5;
+  width: 200px;
+  height: 350px;
+  border-radius: 20px;
+}
+.merit44 {
+  margin-top: 16px;
+}
+.merit444 {
+  text-align: center;
+  margin-top: 19px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #637c63;
+}
+
+.ancer {
+  width: 1000px;
+  margin: 45px auto 196px auto;
+  font-size: 20px;
+}
+.ancer .q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.ancer .a {
+  display: none;
+  margin-bottom: 46px;
+  color: #707070;
+  overflow: hidden;
+  height: 0px;
+}
+.ancer .open {
+  display: block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.ancer1, .ancer2, .ancer3 {
+  position: relative;
+}
+.ancer1 .qaBtn, .ancer2 .qaBtn, .ancer3 .qaBtn {
+  position: absolute;
+  top: 0;
+  right: 197px;
+}
+
+.footer {
+  height: 473px;
+  background: #002849;
+}
+.footerMain {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  transform: translateY(61px);
+}
+.footerMainabout {
+  position: absolute;
+  color: #ffffff;
+}
+.footerMaintop {
+  font-size: 24px;
+}
+.footerMainsecond {
+  margin-top: 31px;
+  font-size: 18px;
+}
+.footerMainsecond p {
+  margin-bottom: 12px;
+}
+.footerMainCon {
+  margin-left: 500px;
+  color: #ffffff;
+}
+.footerMainCon1 {
+  font-size: 24px;
+}
+.footerMainCon2 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.footerMainCon3 {
+  margin-top: 33px;
+  font-size: 18px;
+}
+.footerMainCon33 {
+  margin-bottom: 12px;
+}
+.footerMainApp {
+  position: absolute;
+  margin-left: 220px;
+  transform: translateY(100px);
+}
+.footerMainGoogle {
+  position: absolute;
+  margin-left: 380px;
+  transform: translateY(100px);
+}
+
+.cooperation {
+  width: 100%;
+}
+.cooperation .autoplay-slider {
+  display: flex;
+  min-width: 100%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  -webkit-animation: 20s linear infinite sliderAnimation;
+          animation: 20s linear infinite sliderAnimation;
+  margin: 40px 0;
+}
+.cooperation .delay.autoplay-slider {
+  display: flex;
+  min-width: 100%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  -webkit-animation: 20s -6s linear infinite sliderAnimation;
+          animation: 20s -6s linear infinite sliderAnimation;
+}
+.cooperation .slide {
+  margin: 20px;
+  position: relative;
+}
+.cooperation .slide img {
+  width: 175px;
+}
+
+@-webkit-keyframes sliderAnimation {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sliderAnimation {
+  100% {
+    transform: translateX(-50%);
+  }
+}
